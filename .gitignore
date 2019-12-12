@@ -1,2 +1,3 @@
 library/Zend/**
 !library/Zend/README.md
+/nbproject**

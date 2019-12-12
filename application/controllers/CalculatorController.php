@@ -10,17 +10,30 @@ class CalculatorController extends Zend_Controller_Action
 	{
         $this->form = Form_Calculator_Factory::build();
         
-        if ($this->getRequest()->isPost() && $this->form->isValid($this->_request->getPost())) {
-            
-            $a = $this->getRequest()->getPost('val1');
-            $b = $this->getRequest()->getPost('val2');
-            $operator = Model_Calculator_Operator_Factory::build($this->getRequest()->getPost('operator'));
+        if ($this->getRequest()->isPost()) {
+			
+			if ($this->form->isValid($this->_request->getPost())) { ;
 
-            $calculator = new Model_Calculator($a, $operator, $b);
+				$a = $this->getRequest()->getPost('val1');
+				$b = $this->getRequest()->getPost('val2');
+				$operator = Model_Calculator_Operator_Factory::build($this->getRequest()->getPost('operator'));
 
-            $this->view->result = $calculator->calculate();
+				$calculator = new Model_Calculator($a, $operator, $b);
+
+				try {
+					$this->view->result = $calculator->calculate();
+				} catch (Model_Calculator_Divide_Exception $e) {
+					$this->view->errors = [
+						[$e->getCode() => $e->getMessage()]
+					];
+				}
+			} else {
+				$this->view->errors = $this->form->getMessages();
+			}
         }
         
+		$this->view->form = $this->form;
+		
 		$this->render();
     }
 }
