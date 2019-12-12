@@ -1,0 +1,127 @@
+<?php
+
+return array(
+	
+	'Ribbon_Logout_A_Text' => 'Logout',
+	
+	'Heading_SomeonesFriends'		=> '%s\'s Friends',
+	'Heading_SomeonesShelf'			=> '%s\'s Shelf',
+	'NoGamesOnShelfYet'				=> 'You don\'t have any games on your shelf yet.',
+	'P_GamerProfilePrivate'			=>	'This gamer only shares their profile with those on
+										their friends list. If you know this person and wish to
+										add them as a friend to share profile details,
+										send them a <em>friend request</em>.',
+	'Message_TradeAdded_No_Link'	=> '<strong>%s</strong> was added to your shelf for trade.',
+	'Message_ShelfAdded_No_Link'	=> '<strong>%s</strong> was added to your shelf.',
+	'Message_ShelfAdded'			=> '<strong>%s</strong> was added to your shelf. View <a href="/shelf/%s">your shelf</a> to add more details.',
+	'Message_WishlistAdded'			=> '<strong>%s</strong> was added to your wishlist. <a href="/wishlist/%s">Manage your wishlist</a>.',
+    
+    'Message_ProfileUpdated'        => '<span class="joined icon"></span>Your user profile was updated.',
+	
+	'Message_ShelfItem_Deleted'		=> 'This game was removed from your shelf. <a href="%s">Undo</a>.',
+	'ShelfItem_Reinstated'			=> 'Your copy of <strong>%s</strong> was restored to your shelf.',
+	
+	'About'							=> 'About',
+    'About the author'              => 'About the author',
+	'Articles by tag'				=> 'Articles by tag',
+	'Average Rating'				=> 'Average Rating',
+	'Awards'						=> 'Awards',
+	'awards'						=> 'awards',
+	'Blog Archive'					=> 'Blog Archive',
+	'By'							=> 'By',
+	'Confirm friend'				=> 'Confirm friend',
+	'Company'						=> 'Company',
+	'Details'						=> 'Details',
+	'Edit'							=> 'Edit',
+	'edit my details'				=> 'edit my details',
+	'edit password'					=> 'edit password',
+	'Email'							=> 'Email',
+	'FAQs'							=> 'FAQs',
+	'Flickr Gallery'				=> 'Flickr Gallery',
+	'Friend Requests pending'		=> 'Friend Requests pending',
+	'Frequently Asked Questions'	=> 'Frequently Asked Questions',
+	'Gamers'						=> 'Gamers',
+	'Games'							=> 'Games',
+	'games'							=> 'games',
+	'games waiting'					=> 'games waiting',
+	'Genres'						=> 'Genres',
+	'Help'							=> 'Help',
+	'Ignore request'				=> 'Ignore request',
+	'Latest games added'			=> 'Latest games added',
+	'Login'							=> 'Login',
+	'Logout'						=> 'Logout',
+	'Media'							=> 'Media',
+	'Merchandise'					=> 'Merchandise',
+	'More about me'					=> 'More about me',
+	'My Awards'						=> 'My Awards',
+	'My Friends'					=> 'My Friends',
+	'My Gallery'					=> 'My Gallery',
+	'My Shelf'						=> 'My Shelf',
+	'My Systems'					=> 'My Systems',
+	'My Game Shelf'					=> 'My Game Shelf',
+	'My game shelf'					=> 'My game shelf',
+	'No, just remove console'		=> 'No, just remove console',
+	'One more thing...'				=> 'One more thing...',
+	'Password'						=> 'Password',
+	'Privacy'						=> 'Privacy',
+	'Profile'						=> 'Profile',
+	'Published'						=> 'Published',
+	'Rate your game'				=> 'Rate your game',
+	'Recent Activity'				=> 'Recent Activity',
+	'Region'						=> 'Region',
+	'Register'						=> 'Register',
+	'Released'						=> 'Released',
+	'Save'							=> 'Save',
+	'Search in...'					=> 'Search in...',
+	'Shelf'							=> 'Shelf',
+	'Shelf Support'					=> 'Shelf Support',
+	'Shelf up since'				=> 'Shelf up since',
+	'Sign in'						=> 'Sign in',
+	'star'							=> 'star',
+	'stars'							=> 'stars',
+	'Support'						=> 'Support',
+	'Systems'						=> 'Systems',
+	'systems'						=> 'systems',
+	'Tags'							=> 'Tags',
+	'Terms'							=> 'Terms',
+	'Terms of Service'				=> 'Terms of Service',
+	'TOS'							=> 'TOS',
+	'total'							=> 'total',
+	'Trade'							=> 'Trade',
+	'User not found'				=> 'User not found',
+	'Wishlist'						=> 'Wishlist',
+	'Written'						=> 'Written',
+	'Yes, remove them!'				=> 'Yes, remove them!',
+	'Your account'					=> 'Your account',
+	'Your QR Code'					=> 'Your QR Code',
+	'Your rating'					=> 'Your rating',
+	'Your shelf'					=> 'Your shelf',
+	'Your unlocked awards'			=> 'Your unlocked awards',
+	'Game Store'					=> 'Game Store',
+	'New releases'					=> 'New releases',
+	
+	'Full motion video'				=> 'Full motion video',
+	"Can't see this video?"			=> "Can't see this video?",
+	
+	'Alternate versions'			=> 'Alternate versions',
+	
+	
+	
+	
+	
+	
+	'TradeIndex_H1_Title' => 'Trade your games with others',
+	'Articles_H1_Title' => 'Gaming articles',
+	'Merchandise_H1_Title' => 'Shelf support',
+	'UserGallery_H1_Text' => "%s's Game Collection Gallery",
+	
+	'Articles_Archive_A_Text' => 'Archived articles',
+	
+	
+	'gender_full_M' => 'Male',
+	'gender_full_F' => 'Female',
+	'gender_full_' => 'Not specified',
+    
+    
+    'FLASH_MESSAGE_7.1' => 'Your Holiday Request has been made',
+);

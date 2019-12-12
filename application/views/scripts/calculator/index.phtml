@@ -1,0 +1,43 @@
+<form id="calculator" action="#" method="post">
+    <h1><?php echo $this->translate('Calculator'); ?></h1>
+    <p>
+        <?php echo $this->translate('Please enter two numbers below and a mathmatical operator.'); ?>
+    </p>
+    <fieldset>
+        <div class="row">
+            
+            <div class="form-group col-sm-4">
+                <label for="val1">
+                    <?php echo $this->translate('Number 1'); ?>
+                </label>
+                <input type="number" name="val1" id="val1" value="">
+            </div>
+            
+            <div class="form-group col-sm-4">
+                <label for="operator"><?php echo $this->translate('operator'); ?></label>
+                <select id="operator" name="operator">
+                    <option value="ADDITION">+</option>
+                    <option value="SUBTRACT">-</option>
+                    <option value="MULTIPLY">&times;</option>
+                    <option value="DIVIDE">&divide;</option>
+                </select>
+            </div>
+            
+            <div class="form-group col-sm-4">
+                <label for="val2">
+                    <?php echo $this->translate('Number 2'); ?>
+                </label>
+                <input type="number" name="val2" id="val2" value="">
+            </div>
+            <button type="submit" class="btn btn-primary"><?php echo $this->translate('Submit'); ?></button>
+        </div>
+        
+        <?php if ($this->result): ?>
+            <div id="result"  class="alert alert-primary" role="alert">
+                <?php echo $this->translate('Your result'); ?>:
+                <?php echo $this->result; ?>
+            </div>
+        <?php endif; ?>
+        
+    </fieldset>
+</form>

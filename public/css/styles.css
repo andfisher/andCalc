@@ -1,0 +1,69 @@
+
+body{
+	background-color:#000000;
+	color:#ffffff; 
+	font-family:'Arial', sans-serif; 
+	font-size:80%; 
+	margin:0 auto;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family:'ExoRegular', 'Trebuchet MS', 'Arial', Serif; 
+	font-weight:normal;
+}
+h1{
+	font-size:2em;
+	margin:0 0 15px;
+}
+h2{
+	font-size:1.2em;
+}
+a{
+	color:#ff00a2;
+	border-bottom:0; 
+	text-decoration:none;
+}
+
+.clear{
+	clear:both;
+}
+
+#content{
+	float:left;
+	width:940px;
+}
+
+#content .section{
+	overflow:hidden;
+	margin:0 0 20px;
+	display:block;
+}
+
+.wcag{
+	position:absolute;
+	top:-5000px;
+}
+
+
+
+#Main{
+	width:100%;
+	overflow:hidden;
+}
+
+#Content{
+	background:transparent;
+	padding:30px;
+	overflow:hidden;
+}
+
+#Copyright{
+	padding:20px 30px 25px;
+}
+
+#calculator {
+    max-width: 890px;
+}
+
+fieldset .row {
+    padding: 2em;
+}
